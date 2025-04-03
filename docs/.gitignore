@@ -1,0 +1,64 @@
+# Configuration files with sensitive information
+config.php
+*.env
+
+# Vendor and dependencies
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+
+# Logs
+/logs/
+*.log
+php_errors.log
+
+# Temporary files
+/tmp/
+/temp/
+*.tmp
+*.swp
+*.swo
+
+# Cache files
+.sass-cache/
+*.sass-cache
+cache/
+.phpunit.result.cache
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.buildpath
+.settings/
+nbproject/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Uploaded files (development only)
+/uploads/*
+!/uploads/.gitkeep
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Database backup files
+*.sql
+*.sqlite
+*.db
+!database_schema.sql
+
+# User specific files
+.user.ini 
