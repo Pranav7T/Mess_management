@@ -1,0 +1,14 @@
+{
+    "name": "pranav7t/mess-management",
+    "description": "Hostaler's Rasoi - Mess Management System",
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "ext-mysqli": "*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "echo 'Post-install script running...'"
+        ]
+    }
+} 
