@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hostaler's Rasoi - Mess Management System</title>
+    <title>Hostaler's Rasoi - Demo Version</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,6 +24,14 @@
             color: #333;
             text-align: center;
         }
+        .demo-notice {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border: 1px solid #ffeeba;
+        }
         .info-box {
             background-color: #f8f9fa;
             padding: 20px;
@@ -42,6 +50,18 @@
         .button:hover {
             background-color: #0056b3;
         }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .feature-card {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -49,22 +69,44 @@
         <h1>Hostaler's Rasoi</h1>
         <h2>Mess Management System</h2>
         
-        <div class="info-box">
-            <h3>About This Project</h3>
-            <p>This is a PHP-based web application for managing mess services. The system allows:</p>
-            <ul>
-                <li>Users to find and subscribe to mess services</li>
-                <li>Mess owners to manage their services and menus</li>
-                <li>Admin to oversee the entire system</li>
-            </ul>
+        <div class="demo-notice">
+            <h3>⚠️ Demo Version Notice</h3>
+            <p>This is a static demo version of the application. The full PHP version with database functionality is available for local installation.</p>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>For Users</h3>
+                <ul>
+                    <li>Search for mess services</li>
+                    <li>View mess details</li>
+                    <li>Subscribe to meal plans</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h3>For Mess Owners</h3>
+                <ul>
+                    <li>Manage mess listings</li>
+                    <li>Update menus</li>
+                    <li>Track subscriptions</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h3>Admin Features</h3>
+                <ul>
+                    <li>User management</li>
+                    <li>System oversight</li>
+                    <li>Reports and analytics</li>
+                </ul>
+            </div>
         </div>
 
         <div class="info-box">
             <h3>Local Installation</h3>
-            <p>To run this project locally:</p>
+            <p>To run the full version with PHP functionality:</p>
             <ol>
                 <li>Install XAMPP/WAMP/LAMP</li>
-                <li>Clone the repository to your web server directory</li>
+                <li>Clone the repository</li>
                 <li>Import the database schema</li>
                 <li>Configure the database connection</li>
                 <li>Access via http://localhost/Mess_management/</li>
@@ -73,7 +115,7 @@
 
         <div class="info-box">
             <h3>GitHub Repository</h3>
-            <p>View the source code and documentation on GitHub:</p>
+            <p>View the source code and documentation:</p>
             <a href="https://github.com/Pranav7T/Mess_management" class="button">View on GitHub</a>
         </div>
     </div>
