@@ -2,10 +2,6 @@
 
 A web-based platform that connects mess owners with potential customers, helping students and working professionals find quality mess services in their area.
 
-## Live Demo
-
-[View Live Demo](https://yourdomain.com/Mess_management) - Replace with your actual hosting URL once deployed
-
 ## Features
 
 - Search for mess services by location
@@ -30,11 +26,4 @@ A web-based platform that connects mess owners with potential customers, helping
 5. Access via http://localhost/Mess_management/
 
 ## Default Login
-- Admin: admin@hostalersrasoi.com / admin123
-
-## Screenshots
-
-![Homepage](screenshots/homepage.png)
-![Dashboard](screenshots/dashboard.png)
-
-*Note: Replace with actual screenshots once available* 
+- Admin: admin@hostalersrasoi.com / admin123 
